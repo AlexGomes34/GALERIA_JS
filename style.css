@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+:root {
+    --legenda: attr(subtitle)
+}
 body{
     background-color: black;
     color: white;
@@ -17,6 +20,12 @@ body{
     width: 100%;
     padding-block: 4px;
 }
-.texto{
-
+p{
+    height: 3vh;
+    opacity: 80%;
+    content: var(--legenda);
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 800;
 }
